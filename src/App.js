@@ -91,6 +91,8 @@ function App() {
             Empower Farmers, Agricultural Communities And Environmental
           </span>
         </div>
+        <br></br>
+        <button className="green-button-style">DISCOVER MORE 🠊</button>
         </div>
       </div>
     </div>
