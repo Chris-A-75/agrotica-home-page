@@ -37,13 +37,13 @@ body {
   background-color: #4BAF47;
   width: 180px;
   height: 45px;
-  font-size: 16px;
+  font-size: 15 px;
   font-family: 'Outfit', sans-serif;
   border-width: 0;
-  border-radius: 11px;
+  border-radius: 10px;
 }
 .section-2 {
   display: flex;
-  padding: 100px 30px;
+  padding: 100px 46px;
   justify-content: space-between;
 }
