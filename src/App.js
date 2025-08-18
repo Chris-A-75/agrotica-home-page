@@ -129,7 +129,7 @@ function App() {
           </span>
           <br></br>
           <img src={image4} alt="" style={{ width: 150, height: 70 }}></img>
-          <br></br>
+          
           <div
             style={{
               textTransform: "capitalize",
@@ -141,6 +141,7 @@ function App() {
             <span style={{ fontWeight: 600, fontSize: 37.5 }}>15 +</span> years
             experience
           </div>
+          <button className="green-button-style">DISCOVER MORE 🠊</button>
         </div>
         <div>
           <img src={image3} alt=""></img>
