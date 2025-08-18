@@ -14,7 +14,7 @@ function App() {
             marginLeft: "20%",
             display: "flex",
             alignItems: "center",
-            justifyContent: "space-evenly",
+            justifyContent: "space-between",
           }}
         >
           <div style={{ fontSize: 13, color: "grey" }}>
@@ -53,14 +53,44 @@ function App() {
         </div>
       </div>
       <div className="top-bar-2">
-        <a className="bar-link-text" href="/home">Home</a>
-        <a className="bar-link-text" href="/about">About us</a>
-        <a className="bar-link-text" href="/products">Products</a>
-        <a className="bar-link-text" href="/projects">Projects</a>
-        <a className="bar-link-text" href="/contact">Contact us</a>
+        <a className="bar-link-text" href="/home">
+          Home
+        </a>
+        <a className="bar-link-text" href="/about">
+          About us
+        </a>
+        <a className="bar-link-text" href="/products">
+          Products
+        </a>
+        <a className="bar-link-text" href="/projects">
+          Projects
+        </a>
+        <a className="bar-link-text" href="/contact">
+          Contact us
+        </a>
       </div>
-      <div>
-        <img src={image1} alt="" style={{width:"100%", transform: "translateY(-22px)"}}></img>
+      <div
+        style={{ position: "relative", display: "inline-block", width: "100%" }}
+      >
+        <img
+          src={image1}
+          alt=""
+          style={{ width: "100%", transform: "translateY(-22px)" }}
+        ></img>
+        <div
+          className="centered-image-text"
+          style={{
+            color: "white",
+            fontSize: 20,
+            textAlign: "center",
+            flexDirection: "column",
+          }}
+        >
+          <h1>Empower Farmers, Agricultural Communities And Environmental</h1>
+          <span style={{ fontWeight: "normal" }}>
+            Empower Farmers, Agricultural Communities And Environmental
+          </span>
+        </div>
       </div>
     </div>
   );
