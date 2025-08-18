@@ -85,11 +85,12 @@ function App() {
             textAlign: "center",
             flexDirection: "column",
           }}
-        >
+        ><div style={{paddingLeft:"25%", paddingRight:"25%"}}>
           <h1>Empower Farmers, Agricultural Communities And Environmental</h1>
           <span style={{ fontWeight: "normal" }}>
             Empower Farmers, Agricultural Communities And Environmental
           </span>
+        </div>
         </div>
       </div>
     </div>
