@@ -42,3 +42,8 @@ body {
   border-width: 0;
   border-radius: 11px;
 }
+.section-2 {
+  display: flex;
+  padding: 100px 30px;
+  justify-content: space-between;
+}

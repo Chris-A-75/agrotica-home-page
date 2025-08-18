@@ -1,6 +1,8 @@
 import "./App.css";
 import logo from "./assets/AGROTICA-2024-2.png";
 import image1 from "./assets/Rectangle 1.png";
+import image2 from "./assets/Mask group.png";
+import image3 from "./assets/Mask group2.png";
 
 function App() {
   return (
@@ -17,9 +19,9 @@ function App() {
             justifyContent: "space-between",
           }}
         >
-          <div style={{ fontSize: 13, color: "grey" }}>
+          <div style={{ fontSize: 12, color: "grey" }}>
             Call anytime <br></br>
-            <span style={{ fontWeight: "bold", color: "black" }}>
+            <span style={{ fontWeight: "bold", color: "black", fontSize:14}}>
               +961 3 21 22 30
             </span>
           </div>
@@ -31,9 +33,9 @@ function App() {
               margin: 60,
             }}
           ></div>
-          <div style={{ fontSize: 13, color: "grey" }}>
+          <div style={{ fontSize: 12, color: "grey" }}>
             Send email <br></br>
-            <span style={{ fontWeight: "bold", color: "black" }}>
+            <span style={{ fontWeight: "bold", color: "black", fontSize:14 }}>
               Info@Agrotica.info
             </span>
           </div>
@@ -45,9 +47,9 @@ function App() {
               margin: 60,
             }}
           ></div>
-          <div style={{ fontSize: 13, color: "grey" }}>
+          <div style={{ fontSize: 12, color: "grey" }}>
             Al Chouf - Mahafer - Main Street <br></br>
-            <span style={{ fontWeight: "bold", color: "black" }}>Al Chouf</span>
+            <span style={{ fontWeight: "bold", color: "black", fontSize:14 }}>Al Chouf</span>
           </div>
           {/* add fb and insta pics later */}
         </div>
@@ -85,15 +87,20 @@ function App() {
             textAlign: "center",
             flexDirection: "column",
           }}
-        ><div style={{paddingLeft:"25%", paddingRight:"25%"}}>
-          <h1>Empower Farmers, Agricultural Communities And Environmental</h1>
-          <span style={{ fontWeight: "normal" }}>
+        ><div style={{paddingLeft:"25%", paddingRight:"25%", fontSize:40, fontWeight:600}}>
+          Empower Farmers, Agricultural Communities And Environmental<br></br>
+          <span style={{ fontWeight: "normal", fontSize:20}}>
             Empower Farmers, Agricultural Communities And Environmental
           </span>
         </div>
         <br></br>
         <button className="green-button-style">DISCOVER MORE 🠊</button>
         </div>
+      </div>
+      <div className="section-2">
+        <div><img src={image2} alt=""></img></div>
+        <div style={{fontWeight:"bold", textAlign:"center", fontSize:40}}>Agrotica is Dedicated to Advancing Sustainable Agriculture</div>
+        <div><img src={image3} alt=""></img></div>
       </div>
     </div>
   );
