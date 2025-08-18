@@ -3,7 +3,7 @@ import logo from "./assets/AGROTICA-2024-2.png";
 import image1 from "./assets/Rectangle 1.png";
 import image2 from "./assets/Mask group.png";
 import image3 from "./assets/Mask group2.png";
-import image4 from "./assets/Screenshot 2025-08-18 135204.png"
+import image4 from "./assets/Screenshot 2025-08-18 135204.png";
 
 function App() {
   return (
@@ -126,9 +126,21 @@ function App() {
           <span style={{ fontSize: 25, fontWeight: "normal", lineHeight: 1 }}>
             Founded in 2009 by a team of agricultural experts with over two
             decades of experience,
-          </span><br></br>
-          <img src={image4} alt="" style={{width:150,height:70}}></img><br></br>
-          
+          </span>
+          <br></br>
+          <img src={image4} alt="" style={{ width: 150, height: 70 }}></img>
+          <br></br>
+          <div
+            style={{
+              textTransform: "capitalize",
+              fontSize: 22.5,
+              color: "#4BAF47",
+              fontWeight: 400,
+            }}
+          >
+            <span style={{ fontWeight: 600, fontSize: 37.5 }}>15 +</span> years
+            experience
+          </div>
         </div>
         <div>
           <img src={image3} alt=""></img>
