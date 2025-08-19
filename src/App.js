@@ -1,4 +1,7 @@
 import "./App.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+
 import logo from "./assets/AGROTICA-2024-2.png";
 import image1 from "./assets/Rectangle 1.png";
 import image2 from "./assets/Mask group.png";
@@ -9,6 +12,7 @@ import image6 from "./assets/Group 98.png";
 import image7 from "./assets/Group 99.png";
 import image8 from "./assets/Fill-33.png";
 import image9 from "./assets/Group 100.png";
+import image10 from "./assets/e851ed9848beb20b9911c928328661a8aca7b3e7.jpg"
 
 function App() {
   return (
@@ -250,7 +254,27 @@ function App() {
           view all projects 🠊
         </button>
       </div>
-      <div style={{ backgroundColor: "#21604D", height: 387 }}></div>
+      <div className="section-4-5">
+        <Swiper
+          spaceBetween={20}
+          slidesPerView={3}
+          breakpoints={{
+            768: { slidesPerView: 2 },
+            480: { slidesPerView: 1 },
+          }} style={{transform:"TranslateY(-100px)"}}
+        >
+          <SwiperSlide>
+            <div style={{ position: 'relative'}}>
+              <img src={image10} alt="" ></img>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div style={{ position: 'relative'}}>
+              <img src={image10} alt="" ></img>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </div>
   );
 }
