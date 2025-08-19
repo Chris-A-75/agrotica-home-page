@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .bar-link-text {
   text-decoration: none;
@@ -46,4 +47,12 @@ body {
   display: flex;
   padding: 100px 46px;
   justify-content: space-between;
+}
+.section-3 {
+  background-color: #EAF1E0;
+  height: 728px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }

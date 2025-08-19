@@ -4,6 +4,7 @@ import image1 from "./assets/Rectangle 1.png";
 import image2 from "./assets/Mask group.png";
 import image3 from "./assets/Mask group2.png";
 import image4 from "./assets/Screenshot 2025-08-18 135204.png";
+import image5 from "./assets/Screenshot 2025-08-19 102450.png";
 
 function App() {
   return (
@@ -80,7 +81,7 @@ function App() {
         <img
           src={image1}
           alt=""
-          style={{ width: "100%", transform: "translateY(-22px)" }}
+          style={{ width: "100%", transform: "translateY(-18px)" }}
         ></img>
         <div
           className="centered-image-text"
@@ -129,7 +130,6 @@ function App() {
           </span>
           <br></br>
           <img src={image4} alt="" style={{ width: 150, height: 70 }}></img>
-          
           <div
             style={{
               textTransform: "capitalize",
@@ -146,6 +146,24 @@ function App() {
         <div>
           <img src={image3} alt=""></img>
         </div>
+      </div>
+      <img
+        src={image5}
+        alt=""
+        style={{ display: "block", width: "100%" }}
+      ></img>
+      <div className="section-3">
+        <div
+          title="left-section"
+          style={{
+            marginLeft: 185,
+            backgroundColor: "white",
+            width: 454,
+            height: 441,
+            boxShadow: "0px 11.25px 45px -7.5px rgba(109, 117, 143, 0.33)",
+          }}
+        ></div>
+        <div title="right-section" style={{display:"flex"}}></div>
       </div>
     </div>
   );
