@@ -5,8 +5,10 @@ import image2 from "./assets/Mask group.png";
 import image3 from "./assets/Mask group2.png";
 import image4 from "./assets/Screenshot 2025-08-18 135204.png";
 import image5 from "./assets/Screenshot 2025-08-19 102450.png";
-import image6 from "./assets/Group 9.png";
-import image7 from "./assets/Group 8.png";
+import image6 from "./assets/Group 98.png";
+import image7 from "./assets/Group 99.png";
+import image8 from "./assets/Fill-33.png";
+import image9 from "./assets/Group 100.png";
 
 function App() {
   return (
@@ -20,23 +22,39 @@ function App() {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            flexWrap:"wrap"
+            flexWrap: "wrap",
           }}
         >
-          <div style={{ fontSize: 12, color: "grey",borderRight:"1px solid #E4E2D7", padding: 20, paddingRight:80}}>
+          <div
+            style={{
+              fontSize: 12,
+              color: "grey",
+              borderRight: "1px solid #E4E2D7",
+              padding: 20,
+              paddingRight: 80,
+            }}
+          >
             Call anytime <br></br>
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               +961 3 21 22 30
             </span>
           </div>
-          <div style={{ fontSize: 12, color: "grey",borderRight:"1px solid #E4E2D7", padding: 20,paddingRight:80}}>
+          <div
+            style={{
+              fontSize: 12,
+              color: "grey",
+              borderRight: "1px solid #E4E2D7",
+              padding: 20,
+              paddingRight: 80,
+            }}
+          >
             Send email <br></br>
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               Info@Agrotica.info
             </span>
           </div>
-          
-          <div style={{ fontSize: 12, color: "grey", padding: 20}}>
+
+          <div style={{ fontSize: 12, color: "grey", padding: 20 }}>
             Al Chouf - Mahafer - Main Street <br></br>
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               Al Chouf
@@ -148,8 +166,10 @@ function App() {
             width: 454,
             height: 441,
             boxShadow: "0px 11.25px 45px -7.5px rgba(109, 117, 143, 0.33)",
+            paddingBottom: 5,
           }}
         >
+          <img src={image8} alt="" style={{ marginTop: 31 }}></img>
           <div
             style={{
               fontFamily: "'Shadows Into Light Two', cursive", // cursive as fallback
@@ -160,17 +180,53 @@ function App() {
               letterSpacing: "0.75px",
               verticalAlign: "middle",
               textTransform: "capitalize",
-              marginLeft:40.25,
-              marginTop:84.6,
-              color:"#49A760"
+              marginLeft: 40.25,
+              color: "#49A760",
             }}
-          >agrotica solutions</div><br></br>
-          <div style={{fontWeight:600,fontSize:40, color:"#04000B", marginLeft:40, verticalAlign:"middle"}}>Agriculture through innovative solutions.</div>
-          <div style={{color:"#666666", fontSize:16, fontWeight:500, marginLeft:40, paddingRight:100}}>Our expertise also extends to offering advanced irrigation services and effective crop protection solutions,</div>
+          >
+            agrotica solutions
+          </div>
           <br></br>
-          <a href="" style={{color:"#4BAF47", fontFamily:"Outfit", fontWeight:600, marginLeft:40}}>VIEW ALL DETAILS</a>
+          <div
+            style={{
+              fontWeight: 500,
+              fontSize: 40,
+              color: "#04000B",
+              marginLeft: 40,
+              verticalAlign: "middle",
+              marginBottom: 10,
+            }}
+          >
+            Agriculture through innovative solutions.
+          </div>
+          <div
+            style={{
+              color: "#666666",
+              fontSize: 16,
+              fontWeight: 500,
+              marginLeft: 40,
+              paddingRight: 100,
+            }}
+          >
+            Our expertise also extends to offering advanced irrigation services
+            and effective crop protection solutions,
+          </div>
+          <br></br>
+          <a
+            href=""
+            style={{
+              color: "#4BAF47",
+              fontFamily: "Outfit",
+              fontWeight: 600,
+              marginLeft: 40,
+            }}
+          >
+            VIEW ALL DETAILS
+          </a>
+          <br></br>
+          <img src={image9} alt="" style={{ marginLeft: 220 }}></img>
         </div>
-        <div title="right-section" style={{ display: "flex"}}>
+        <div title="right-section" style={{ display: "flex" }}>
           <div style={{}}>
             <img src={image6} alt="" style={{ marginRight: 50 }}></img>
             <img src={image7} alt=""></img>
