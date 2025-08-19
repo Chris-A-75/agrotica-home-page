@@ -233,6 +233,14 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="section-4">
+        <div style={{maxWidth:"40%"}}>
+          <span style={{fontWeight:600, fontSize:40}}>Our Projects</span> <br></br><br></br>
+          <span style={{fontSize:20, textTransform:"capitalize"}}>Sollicitudin ac orci phasellus egest tellusun rutrum tellus. Amet commod nulla facilisi nulla. Sed etetur adipscin</span>
+        </div>
+        <button className="green-button-style" style={{marginTop:132, width:242}}>view all projects   🠊</button>
+      </div>
+      <div style={{backgroundColor:"#21604D", height:387}}></div>
     </div>
   );
 }

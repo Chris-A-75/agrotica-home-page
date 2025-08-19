@@ -43,6 +43,7 @@ body {
   font-family: 'Outfit', sans-serif;
   border-width: 0;
   border-radius: 10px;
+  text-transform: uppercase;
 }
 .section-2 {
   display: flex;
@@ -52,9 +53,14 @@ body {
 }
 .section-3 {
   background-color: #EAF1E0;
-  height: 728px;
+  padding-bottom: 120px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+.section-4 {
+  padding: 54px 100px;
+  display: flex;
+  justify-content: space-between;
 }
