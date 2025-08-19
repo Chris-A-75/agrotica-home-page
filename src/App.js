@@ -5,6 +5,8 @@ import image2 from "./assets/Mask group.png";
 import image3 from "./assets/Mask group2.png";
 import image4 from "./assets/Screenshot 2025-08-18 135204.png";
 import image5 from "./assets/Screenshot 2025-08-19 102450.png";
+import image6 from "./assets/Group 9.png";
+import image7 from "./assets/Group 8.png";
 
 function App() {
   return (
@@ -156,14 +158,19 @@ function App() {
         <div
           title="left-section"
           style={{
-            marginLeft: 185,
+            marginLeft: 0,
             backgroundColor: "white",
             width: 454,
             height: 441,
             boxShadow: "0px 11.25px 45px -7.5px rgba(109, 117, 143, 0.33)",
           }}
         ></div>
-        <div title="right-section" style={{display:"flex"}}></div>
+        <div title="right-section" style={{display:"flex"}}>
+          <div style={{}}>
+          <img src={image6} alt="" style={{marginRight:50}}></img>
+          <img src={image7} alt=""></img>
+          </div>
+        </div>
       </div>
     </div>
   );
