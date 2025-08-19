@@ -21,6 +21,7 @@ function App() {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
+            flexWrap:"wrap"
           }}
         >
           <div style={{ fontSize: 12, color: "grey" }}>
@@ -31,10 +32,11 @@ function App() {
           </div>
           <div
             style={{
-              width: "1px",
-              height: "80px",
+              width: 1,
+              height: 80,
               backgroundColor: "#ccc",
-              margin: 60,
+              marginLeft: 60,
+              marginRight: 60,
             }}
           ></div>
           <div style={{ fontSize: 12, color: "grey" }}>
@@ -45,10 +47,11 @@ function App() {
           </div>
           <div
             style={{
-              width: "1px",
-              height: "80px",
+              width: 1,
+              height: 80,
               backgroundColor: "#ccc",
-              margin: 60,
+              marginLeft: 60,
+              marginRight: 60,
             }}
           ></div>
           <div style={{ fontSize: 12, color: "grey" }}>
