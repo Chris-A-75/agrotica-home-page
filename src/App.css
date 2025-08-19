@@ -44,6 +44,7 @@ body {
   border-width: 0;
   border-radius: 10px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .section-2 {
   display: flex;
@@ -60,7 +61,8 @@ body {
   flex-wrap: wrap;
 }
 .section-4 {
-  padding: 54px 100px;
+  padding: 54px 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
