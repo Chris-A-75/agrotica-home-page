@@ -17,44 +17,26 @@ function App() {
         <div
           title="top-bar-1-text"
           style={{
-            marginLeft: "20%",
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
             flexWrap:"wrap"
           }}
         >
-          <div style={{ fontSize: 12, color: "grey" }}>
+          <div style={{ fontSize: 12, color: "grey",borderRight:"1px solid #E4E2D7", padding: 20, paddingRight:80}}>
             Call anytime <br></br>
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               +961 3 21 22 30
             </span>
           </div>
-          <div
-            style={{
-              width: 1,
-              height: 80,
-              backgroundColor: "#ccc",
-              marginLeft: 60,
-              marginRight: 60,
-            }}
-          ></div>
-          <div style={{ fontSize: 12, color: "grey" }}>
+          <div style={{ fontSize: 12, color: "grey",borderRight:"1px solid #E4E2D7", padding: 20,paddingRight:80}}>
             Send email <br></br>
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               Info@Agrotica.info
             </span>
           </div>
-          <div
-            style={{
-              width: 1,
-              height: 80,
-              backgroundColor: "#ccc",
-              marginLeft: 60,
-              marginRight: 60,
-            }}
-          ></div>
-          <div style={{ fontSize: 12, color: "grey" }}>
+          
+          <div style={{ fontSize: 12, color: "grey", padding: 20}}>
             Al Chouf - Mahafer - Main Street <br></br>
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               Al Chouf

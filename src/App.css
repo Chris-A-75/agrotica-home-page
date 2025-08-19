@@ -3,11 +3,11 @@ body {
 }
 .top-bar-1 {
   background-color: white;
-  /*height: 75px;*/
   display: flex;
   align-items: center;
-  padding: 18px 100px 0 100px;
+  padding: 18px 50px 10px 50px;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .top-bar-2 {
   background-color: #f8f6f0;
@@ -48,7 +48,7 @@ body {
   display: flex;
   padding: 100px 46px;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 .section-3 {
   background-color: #EAF1E0;
