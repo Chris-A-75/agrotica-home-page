@@ -256,13 +256,18 @@ function App() {
       </div>
       <div className="section-4-5">
         <Swiper
-          spaceBetween={20}
-          slidesPerView={3}
+          spaceBetween={1}
+          slidesPerView={4}
           breakpoints={{
             768: { slidesPerView: 2 },
             480: { slidesPerView: 1 },
           }} style={{transform:"TranslateY(-100px)"}}
         >
+          <SwiperSlide>
+            <div style={{ position: 'relative'}}>
+              <img src={image10} alt="" ></img>
+            </div>
+          </SwiperSlide>
           <SwiperSlide>
             <div style={{ position: 'relative'}}>
               <img src={image10} alt="" ></img>
