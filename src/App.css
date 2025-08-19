@@ -47,6 +47,7 @@ body {
   display: flex;
   padding: 100px 46px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .section-3 {
   background-color: #EAF1E0;
@@ -54,4 +55,5 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }

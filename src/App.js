@@ -164,11 +164,31 @@ function App() {
             height: 441,
             boxShadow: "0px 11.25px 45px -7.5px rgba(109, 117, 143, 0.33)",
           }}
-        ></div>
-        <div title="right-section" style={{display:"flex"}}>
+        >
+          <div
+            style={{
+              fontFamily: "'Shadows Into Light Two', cursive", // cursive as fallback
+              fontWeight: 400,
+              fontStyle: "normal",
+              fontSize: "18px",
+              lineHeight: "21.6px",
+              letterSpacing: "0.75px",
+              verticalAlign: "middle",
+              textTransform: "capitalize",
+              marginLeft:40.25,
+              marginTop:84.6,
+              color:"#49A760"
+            }}
+          >agrotica solutions</div><br></br>
+          <div style={{fontWeight:600,fontSize:40, color:"#04000B", marginLeft:40, verticalAlign:"middle"}}>Agriculture through innovative solutions.</div>
+          <div style={{color:"#666666", fontSize:16, fontWeight:500, marginLeft:40, paddingRight:100}}>Our expertise also extends to offering advanced irrigation services and effective crop protection solutions,</div>
+          <br></br>
+          <a href="" style={{color:"#4BAF47", fontFamily:"Outfit", fontWeight:600, marginLeft:40}}>VIEW ALL DETAILS</a>
+        </div>
+        <div title="right-section" style={{ display: "flex"}}>
           <div style={{}}>
-          <img src={image6} alt="" style={{marginRight:50}}></img>
-          <img src={image7} alt=""></img>
+            <img src={image6} alt="" style={{ marginRight: 50 }}></img>
+            <img src={image7} alt=""></img>
           </div>
         </div>
       </div>
