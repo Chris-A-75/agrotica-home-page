@@ -24,7 +24,6 @@ import image16 from "./assets/Group 14.png";
 import image17 from "./assets/Mask group1.png";
 import image18 from "./assets/Rectangle 12.png";
 
-
 function App() {
   return (
     <div>
@@ -95,7 +94,8 @@ function App() {
           Contact us
         </a>
       </div>
-      <div className="section-1"
+      <div
+        className="section-1"
         style={{ position: "relative", display: "inline-block", width: "100%" }}
       >
         <img
@@ -331,23 +331,60 @@ function App() {
           className="js-swiper-responsive-breakpoint-pagination"
           style={{ display: "flex", justifyContent: "center" }}
         />
-        <img src={image14} alt="" style={{ marginTop: 40, width:"100%" }}></img>
+        <img
+          src={image14}
+          alt=""
+          style={{ marginTop: 40, width: "100%" }}
+        ></img>
       </div>
       <div className="section-5">
-        <img src={image15} alt="" style={{width:"100%"}}></img>
-        <div style={{display:"flex",justifyContent:"center",fontWeight:600,fontSize:70, paddingLeft:"31%", paddingRight:"17%", marginBottom:95}}>
+        <img src={image15} alt="" style={{ width: "100%" }}></img>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            fontWeight: 600,
+            fontSize: 70,
+            paddingLeft: "31%",
+            paddingRight: "17%",
+            marginBottom: 95,
+          }}
+        >
           <div>
-          We Believe In Bringing Customers The <span style={{color:"#4BAF47"}}><br></br>Best Products</span>
-          <img src={image16} alt="" style={{marginLeft:20, cursor:"pointer"}}></img>
+            We Believe In Bringing Customers The{" "}
+            <span style={{ color: "#4BAF47" }}>
+              <br></br>Best Products
+            </span>
+            <img
+              src={image16}
+              alt=""
+              style={{ marginLeft: 20, cursor: "pointer" }}
+            ></img>
           </div>
         </div>
       </div>
       <div className="section-5-5">
-        <div >
-
+        <div style={{ position: "relative", width: "100%" }}>
+          <img
+            src={image17}
+            alt=""
+            style={{
+              width: "100%",
+              display: "block",
+            }}
+          />
+          <img
+            src={image18}
+            alt=""
+            style={{
+              position: "absolute",
+              top: "0%",
+              left: "7%",
+              width: 518,
+              height: "auto",
+            }}
+          />
         </div>
-        <img src={image17} alt="" style={{width:"100%"}}></img>
-        <img src={image18} alt=""></img>
       </div>
     </div>
   );
