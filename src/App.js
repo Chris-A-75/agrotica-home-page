@@ -21,7 +21,8 @@ import image13 from "./assets/2d9def85b20c5fabd1f12e07da060dd60fad6444.jpg";
 import image14 from "./assets/Group 76.png";
 import image15 from "./assets/text.png";
 import image16 from "./assets/Group 14.png";
-import image17 from "./assets/bd8794c9a34bf104bd8cc926edcee705c55493e5.jpg";
+import image17 from "./assets/Mask group1.png";
+import image18 from "./assets/Rectangle 12.png";
 
 
 function App() {
@@ -94,7 +95,7 @@ function App() {
           Contact us
         </a>
       </div>
-      <div
+      <div className="section-1"
         style={{ position: "relative", display: "inline-block", width: "100%" }}
       >
         <img
@@ -341,7 +342,13 @@ function App() {
           </div>
         </div>
       </div>
-      
+      <div className="section-5-5">
+        <div >
+
+        </div>
+        <img src={image17} alt="" style={{width:"100%"}}></img>
+        <img src={image18} alt=""></img>
+      </div>
     </div>
   );
 }
