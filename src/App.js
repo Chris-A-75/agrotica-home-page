@@ -134,7 +134,7 @@ function App() {
       </div>
       <div className="section-2">
         <div>
-          <img src={image2} alt=""></img>
+          <img src={image2} alt="" className="section-2-left-image"></img>
         </div>
         <div
           style={{
@@ -167,7 +167,7 @@ function App() {
           <button className="green-button-style">DISCOVER MORE 🠊</button>
         </div>
         <div>
-          <img src={image3} alt=""></img>
+          <img src={image3} alt="" className="section-2-right-image"></img>
         </div>
       </div>
       <img

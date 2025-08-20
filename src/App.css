@@ -50,7 +50,6 @@ body {
   display: flex;
   padding: 100px 46px;
   justify-content: space-between;
-  /*flex-wrap: wrap;*/
 }
 .section-3 {
   background-color: #EAF1E0;
@@ -96,7 +95,13 @@ body {
   white-space: nowrap;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
+  .section-2-right-image {
+    display: none;
+  }
+  .section-2-left-image {
+    display: none;
+  }
   .swiper {
     transform: none;
   }
