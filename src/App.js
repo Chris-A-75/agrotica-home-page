@@ -51,7 +51,7 @@ function App() {
               paddingRight: 80,
             }}
           >
-            Call anytime <br></br>
+            Call anytime <br />
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               +961 3 21 22 30
             </span>
@@ -65,14 +65,14 @@ function App() {
               paddingRight: 80,
             }}
           >
-            Send email <br></br>
+            Send email <br />
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               Info@Agrotica.info
             </span>
           </div>
 
           <div style={{ fontSize: 12, color: "grey", padding: 20 }}>
-            Al Chouf - Mahafer - Main Street <br></br>
+            Al Chouf - Mahafer - Main Street <br />
             <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
               Al Chouf
             </span>
@@ -123,12 +123,12 @@ function App() {
               fontWeight: 600,
             }}
           >
-            Empower Farmers, Agricultural Communities And Environmental<br></br>
+            Empower Farmers, Agricultural Communities And Environmental<br />
             <span style={{ fontWeight: "normal", fontSize: "1.39vw" }}>
               Empower Farmers, Agricultural Communities And Environmental
             </span>
           </div>
-          <br></br>
+          <br />
           <button className="green-button-style">DISCOVER MORE 🠊</button>
         </div>
       </div>
@@ -146,12 +146,12 @@ function App() {
             paddingRight: 40,
           }}
         >
-          Agrotica is Dedicated to Advancing Sustainable Agriculture<br></br>
+          Agrotica is Dedicated to Advancing Sustainable Agriculture<br />
           <span style={{ fontSize: 25, fontWeight: "normal", lineHeight: 1 }}>
             Founded in 2009 by a team of agricultural experts with over two
             decades of experience,
           </span>
-          <br></br>
+          <br />
           <img src={image4} alt="" style={{ width: 150, height: 70 }}></img>
           <div
             style={{
@@ -204,7 +204,7 @@ function App() {
           >
             agrotica solutions
           </div>
-          <br></br>
+          <br />
           <div
             style={{
               fontWeight: 500,
@@ -229,7 +229,7 @@ function App() {
             Our expertise also extends to offering advanced irrigation services
             and effective crop protection solutions,
           </div>
-          <br></br>
+          <br />
           <a
             href=""
             style={{
@@ -241,7 +241,7 @@ function App() {
           >
             VIEW ALL DETAILS
           </a>
-          <br></br>
+          <br />
           <img src={image9} alt="" style={{ marginLeft: 220 }}></img>
         </div>
         <div title="right-section" style={{ display: "flex" }}>
@@ -254,8 +254,8 @@ function App() {
       <div className="section-4">
         <div style={{ maxWidth: "40%" }}>
           <span style={{ fontWeight: 600, fontSize: 40 }}>Our Projects</span>{" "}
-          <br></br>
-          <br></br>
+          <br />
+          <br />
           <span style={{ fontSize: 20, textTransform: "capitalize" }}>
             Sollicitudin ac orci phasellus egest tellusun rutrum tellus. Amet
             commod nulla facilisi nulla. Sed etetur adipscin
@@ -356,7 +356,7 @@ function App() {
           <div>
             We Believe In Bringing Customers The{" "}
             <span style={{ color: "#4BAF47" }}>
-              <br></br>Best Products
+              <br />Best Products
             </span>
             <img
               src={image16}
@@ -371,7 +371,7 @@ function App() {
           <div
             style={{
               width: "100%",
-              maxWidth: "1440px",
+              maxWidth: "1550px",
               height: "548px",
               overflow: "hidden",
             }}
@@ -411,15 +411,17 @@ function App() {
                 top: "20%",
                 left: "10%",
                 color: "black",
-                fontSize: 50,
+                fontSize: "7vh",
                 fontWeight: 500,
+                paddingRight:19
               }}
             >
-              Get in Touch with Our Team
-              <br></br>
-              <span style={{ fontSize: 30, fontWeight: 400, lineHeight: 0.5 }}>
+              Get In Touch With Our Team
+              <br />
+              <span style={{ fontSize: "4.9vh", fontWeight: 400}}>
                 For Expert Agricultural Support and Solutions
               </span>
+              <br /><button className="green-button-style">contact us 🠊</button>
             </div>
           </div>
         </div>
