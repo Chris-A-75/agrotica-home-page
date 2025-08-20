@@ -256,26 +256,31 @@ function App() {
       </div>
       <div className="section-4-5">
         <Swiper
-          spaceBetween={1}
-          slidesPerView={4}
+          spaceBetween={500}
+          slidesPerView="4"
           breakpoints={{
-            768: { slidesPerView: 2 },
-            480: { slidesPerView: 1 },
-          }} style={{transform:"TranslateY(-100px)"}}
+            1200: { slidesPerView: 5 },
+            1000: { slidesPerView: 2 },
+          }} style={{transform:"TranslateY(-100px)", width:"100%"}}
         >
           <SwiperSlide>
             <div style={{ position: 'relative'}}>
-              <img src={image10} alt="" ></img>
+              <img src={image10} alt="" style={{wdith:506, height:358}}></img>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div style={{ position: 'relative'}}>
-              <img src={image10} alt="" ></img>
+              <img src={image10} alt="" style={{width:506, height:358}}></img>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div style={{ position: 'relative'}}>
-              <img src={image10} alt="" ></img>
+              <img src={image10} alt="" style={{width:506, height:358}}></img>
+            </div>
+          </SwiperSlide>
+           <SwiperSlide>
+            <div style={{ position: 'relative'}}>
+              <img src={image10} alt="" style={{width:506, height:358}}></img>
             </div>
           </SwiperSlide>
         </Swiper>
