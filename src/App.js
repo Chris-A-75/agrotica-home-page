@@ -94,8 +94,7 @@ function App() {
           Contact us
         </a>
       </div>
-      <div
-        className="section-1"
+      <div className="section-1"
         style={{ position: "relative", display: "inline-block", width: "100%" }}
       >
         <img
