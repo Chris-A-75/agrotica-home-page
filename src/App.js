@@ -116,12 +116,12 @@ function App() {
             style={{
               paddingLeft: "25%",
               paddingRight: "25%",
-              fontSize: 40,
+              fontSize: "2.78vw",
               fontWeight: 600,
             }}
           >
             Empower Farmers, Agricultural Communities And Environmental<br></br>
-            <span style={{ fontWeight: "normal", fontSize: 20 }}>
+            <span style={{ fontWeight: "normal", fontSize: "1.39vw" }}>
               Empower Farmers, Agricultural Communities And Environmental
             </span>
           </div>
@@ -373,17 +373,38 @@ function App() {
               display: "block",
             }}
           />
-          <img
-            src={image18}
-            alt=""
+          <div
             style={{
               position: "absolute",
               top: "0%",
               left: "7%",
-              width: 518,
+              width: "35%",
               height: "auto",
             }}
-          />
+          >
+            <img
+              src={image18}
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto",
+                display: "block",
+              }}
+            />
+            <div
+              style={{
+                position: "absolute",
+                top: "20%",
+                left: "10%",
+                color: "black",
+                fontSize: 50,
+                fontWeight: 500,
+              }}
+            >
+              Get in Touch with Our Team 
+              <br></br><span style={{fontSize:30, fontWeight:400,lineHeight:0.5}}>For Expert Agricultural Support and Solutions</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
