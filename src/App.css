@@ -69,9 +69,16 @@ body {
 }
 .section-4-5 {
   background-color: #21604D;
-  height: 387px;
-  display: flex;
-  overflow-x: visible;
-  overflow-y: visible;
+  /*height: 387px;*/
   gap: 20px;
+}
+.swiper {
+  transform: translateY(-100px);
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .swiper {
+    transform: none;
+  }
 }

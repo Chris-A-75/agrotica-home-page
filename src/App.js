@@ -1,6 +1,8 @@
 import "./App.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/pagination";
 
 import logo from "./assets/AGROTICA-2024-2.png";
 import image1 from "./assets/Rectangle 1.png";
@@ -12,7 +14,11 @@ import image6 from "./assets/Group 98.png";
 import image7 from "./assets/Group 99.png";
 import image8 from "./assets/Fill-33.png";
 import image9 from "./assets/Group 100.png";
-import image10 from "./assets/e851ed9848beb20b9911c928328661a8aca7b3e7.jpg"
+import image10 from "./assets/e851ed9848beb20b9911c928328661a8aca7b3e7.jpg";
+import image11 from "./assets/26dfd2b7cb7ee10e31395370a8715133eecfcba1.jpg";
+import image12 from "./assets/38f4d51eab33acd1e666cc72df6740c6167fa801.jpg";
+import image13 from "./assets/2d9def85b20c5fabd1f12e07da060dd60fad6444.jpg";
+import image14 from "./assets/Group 76.png";
 
 function App() {
   return (
@@ -256,35 +262,73 @@ function App() {
       </div>
       <div className="section-4-5">
         <Swiper
-          spaceBetween={500}
-          slidesPerView="4"
+          className="swiper"
+          modules={[Pagination]}
+          slidesPerView={1}
+          spaceBetween={10}
+          pagination={{
+            el: ".js-swiper-responsive-breakpoint-pagination",
+            clickable: true,
+          }}
           breakpoints={{
-            1200: { slidesPerView: 5 },
-            1000: { slidesPerView: 2 },
-          }} style={{transform:"TranslateY(-100px)", width:"100%"}}
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
         >
           <SwiperSlide>
-            <div style={{ position: 'relative'}}>
-              <img src={image10} alt="" style={{wdith:506, height:358}}></img>
+            <div style={{ position: "relative" }}>
+              <img
+                src={image10}
+                alt=""
+                style={{ wdith: 506, height: 358 }}
+              ></img>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div style={{ position: 'relative'}}>
-              <img src={image10} alt="" style={{width:506, height:358}}></img>
+            <div style={{ position: "relative" }}>
+              <img
+                src={image11}
+                alt=""
+                style={{ width: 506, height: 358 }}
+              ></img>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div style={{ position: 'relative'}}>
-              <img src={image10} alt="" style={{width:506, height:358}}></img>
+            <div style={{ position: "relative" }}>
+              <img
+                src={image12}
+                alt=""
+                style={{ width: 506, height: 358 }}
+              ></img>
             </div>
           </SwiperSlide>
-           <SwiperSlide>
-            <div style={{ position: 'relative'}}>
-              <img src={image10} alt="" style={{width:506, height:358}}></img>
+          <SwiperSlide>
+            <div style={{ position: "relative" }}>
+              <img
+                src={image13}
+                alt=""
+                style={{ width: 506, height: 358 }}
+              ></img>
             </div>
           </SwiperSlide>
         </Swiper>
+        <div
+          className="js-swiper-responsive-breakpoint-pagination"
+          style={{ display: "flex", justifyContent: "center" }}
+        />
+        <img src={image14} alt="" style={{ marginTop: 40 }}></img>
       </div>
+      
     </div>
   );
 }
