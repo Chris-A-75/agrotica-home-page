@@ -76,11 +76,25 @@ body {
   transform: translateY(-100px);
   width: 100%;
 }
-
 .section-5-5 {
   width: 100%;
   position: relative;
 }
+.section-6 {
+  background-color: #21604D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 55px 7.5% 75px 7.5%;
+}
+.bar-link-text-2 {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 1% 5%;
+  text-transform: uppercase;
+}
+
 @media (max-width: 640px) {
   .swiper {
     transform: none;

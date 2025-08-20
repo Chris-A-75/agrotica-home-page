@@ -23,6 +23,8 @@ import image15 from "./assets/text.png";
 import image16 from "./assets/Group 14.png";
 import image17 from "./assets/Mask group1.png";
 import image18 from "./assets/Rectangle 12.png";
+import image19 from "./assets/AGROTICA-2024-3.png";
+import { findByPlaceholderText } from "@testing-library/dom";
 
 function App() {
   return (
@@ -94,7 +96,8 @@ function App() {
           Contact us
         </a>
       </div>
-      <div className="section-1"
+      <div
+        className="section-1"
         style={{ position: "relative", display: "inline-block", width: "100%" }}
       >
         <img
@@ -400,9 +403,65 @@ function App() {
                 fontWeight: 500,
               }}
             >
-              Get in Touch with Our Team 
-              <br></br><span style={{fontSize:30, fontWeight:400,lineHeight:0.5}}>For Expert Agricultural Support and Solutions</span>
+              Get in Touch with Our Team
+              <br></br>
+              <span style={{ fontSize: 30, fontWeight: 400, lineHeight: 0.5 }}>
+                For Expert Agricultural Support and Solutions
+              </span>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="section-6">
+        <div
+          className="top-section"
+          style={{ display: "flex", justifyContent: "space-between" }}
+        >
+          <img src={image19} alt=""></img>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginRight: "18%",
+              flexWrap: "wrap",
+            }}
+          >
+            <a className="bar-link-text-2" href="/home">
+              home
+            </a>
+            <a className="bar-link-text-2" href="/about">
+              About us
+            </a>
+            <a className="bar-link-text-2" href="/products">
+              Products
+            </a>
+            <a className="bar-link-text-2" href="/projects">
+              Projects
+            </a>
+            <a className="bar-link-text-2" href="/contact">
+              Contact us
+            </a>
+          </div>
+        </div>
+        <div
+          title="seperator"
+          style={{
+            width: "100%",
+            height: 1,
+            backgroundColor: "#2C7C64",
+            marginTop: 52,
+            marginBottom: 35,
+          }}
+        ></div>
+        <div
+          title="bottom-part"
+          style={{ display: "flex", justifyContent: "space-between" }}
+        >
+          <div style={{ fontSize: 18, color: "white" }}>
+            Copyright 2024 AGROTICA | All Rights Reserved
+          </div>
+          <div style={{ fontSize: 20, fontWeight: 600, color: "white" }}>
+            Follow Us:
           </div>
         </div>
       </div>
