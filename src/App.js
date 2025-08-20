@@ -368,14 +368,25 @@ function App() {
       </div>
       <div className="section-5-5">
         <div style={{ position: "relative", width: "100%" }}>
-          <img
-            src={image17}
-            alt=""
+          <div
             style={{
-              display: "block",
-              overflow:"clip"
+              width: "100%",
+              maxWidth: "1440px",
+              height: "548px",
+              overflow: "hidden",
             }}
-          />
+          >
+            <img
+              src={image17}
+              alt=""
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                display: "block",
+              }}
+            />
+          </div>
           <div
             style={{
               position: "absolute",
@@ -416,7 +427,11 @@ function App() {
       <div className="section-6">
         <div
           className="top-section"
-          style={{ display: "flex", justifyContent: "space-between", flexWrap:"wrap"}}
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+          }}
         >
           <img src={image19} alt=""></img>
           <div
@@ -460,8 +475,25 @@ function App() {
           <div style={{ fontSize: 18, color: "white" }}>
             Copyright 2024 AGROTICA | All Rights Reserved
           </div>
-          <div style={{ fontSize: 20, fontWeight: 600, color: "white", marginLeft:20}}>
-            Follow Us: <img src={icon1} alt="" style={{marginLeft:10,marginRight:10, cursor:"pointer"}}/><img src={icon2} alt="" style={{marginLeft:10, marginRight:10, cursor:"pointer"}}/>
+          <div
+            style={{
+              fontSize: 20,
+              fontWeight: 600,
+              color: "white",
+              marginLeft: 20,
+            }}
+          >
+            Follow Us:{" "}
+            <img
+              src={icon1}
+              alt=""
+              style={{ marginLeft: 10, marginRight: 10, cursor: "pointer" }}
+            />
+            <img
+              src={icon2}
+              alt=""
+              style={{ marginLeft: 10, marginRight: 10, cursor: "pointer" }}
+            />
           </div>
         </div>
       </div>
