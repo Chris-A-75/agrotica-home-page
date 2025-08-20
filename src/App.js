@@ -24,7 +24,8 @@ import image16 from "./assets/Group 14.png";
 import image17 from "./assets/Mask group1.png";
 import image18 from "./assets/Rectangle 12.png";
 import image19 from "./assets/AGROTICA-2024-3.png";
-import { findByPlaceholderText } from "@testing-library/dom";
+import icon1 from "./assets/Icon.png";
+import icon2 from "./assets/Icon (1).png";
 
 function App() {
   return (
@@ -415,7 +416,7 @@ function App() {
       <div className="section-6">
         <div
           className="top-section"
-          style={{ display: "flex", justifyContent: "space-between" }}
+          style={{ display: "flex", justifyContent: "space-between", flexWrap:"wrap"}}
         >
           <img src={image19} alt=""></img>
           <div
@@ -423,7 +424,6 @@ function App() {
               display: "flex",
               alignItems: "center",
               marginRight: "18%",
-              flexWrap: "wrap",
             }}
           >
             <a className="bar-link-text-2" href="/home">
@@ -460,8 +460,8 @@ function App() {
           <div style={{ fontSize: 18, color: "white" }}>
             Copyright 2024 AGROTICA | All Rights Reserved
           </div>
-          <div style={{ fontSize: 20, fontWeight: 600, color: "white" }}>
-            Follow Us:
+          <div style={{ fontSize: 20, fontWeight: 600, color: "white", marginLeft:20}}>
+            Follow Us: <img src={icon1} alt="" style={{marginLeft:10,marginRight:10, cursor:"pointer"}}/><img src={icon2} alt="" style={{marginLeft:10, marginRight:10, cursor:"pointer"}}/>
           </div>
         </div>
       </div>
