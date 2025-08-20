@@ -19,6 +19,10 @@ import image11 from "./assets/26dfd2b7cb7ee10e31395370a8715133eecfcba1.jpg";
 import image12 from "./assets/38f4d51eab33acd1e666cc72df6740c6167fa801.jpg";
 import image13 from "./assets/2d9def85b20c5fabd1f12e07da060dd60fad6444.jpg";
 import image14 from "./assets/Group 76.png";
+import image15 from "./assets/text.png";
+import image16 from "./assets/Group 14.png";
+import image17 from "./assets/bd8794c9a34bf104bd8cc926edcee705c55493e5.jpg";
+
 
 function App() {
   return (
@@ -326,7 +330,16 @@ function App() {
           className="js-swiper-responsive-breakpoint-pagination"
           style={{ display: "flex", justifyContent: "center" }}
         />
-        <img src={image14} alt="" style={{ marginTop: 40 }}></img>
+        <img src={image14} alt="" style={{ marginTop: 40, width:"100%" }}></img>
+      </div>
+      <div className="section-5">
+        <img src={image15} alt="" style={{width:"100%"}}></img>
+        <div style={{display:"flex",justifyContent:"center",fontWeight:600,fontSize:70, paddingLeft:"31%", paddingRight:"17%", marginBottom:95}}>
+          <div>
+          We Believe In Bringing Customers The <span style={{color:"#4BAF47"}}><br></br>Best Products</span>
+          <img src={image16} alt="" style={{marginLeft:20, cursor:"pointer"}}></img>
+          </div>
+        </div>
       </div>
       
     </div>
