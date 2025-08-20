@@ -372,8 +372,8 @@ function App() {
             src={image17}
             alt=""
             style={{
-              width: "100%",
               display: "block",
+              overflow:"clip"
             }}
           />
           <div
