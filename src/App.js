@@ -434,13 +434,7 @@ function App() {
           }}
         >
           <img src={image19} alt=""></img>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              marginRight: "18%",
-            }}
-          >
+          <div className="bar-links-section-6">
             <a className="bar-link-text-2" href="/home">
               home
             </a>
