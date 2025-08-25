@@ -110,81 +110,43 @@ function App() {
         className="section-2-3-seperator"
       ></img>
       <div className="section-3">
-        <div
-          title="left-section"
-          style={{
-            marginLeft: 0,
-            backgroundColor: "white",
-            width: 454,
-            height: 441,
-            boxShadow: "0px 11.25px 45px -7.5px rgba(109, 117, 143, 0.33)",
-            paddingBottom: 5,
-          }}
-        >
-          <img src={image8} alt="" style={{ marginTop: 31 }}></img>
-          <div
-            style={{
-              fontFamily: "'Shadows Into Light Two', cursive", // cursive as fallback
-              fontWeight: 400,
-              fontStyle: "normal",
-              fontSize: "18px",
-              lineHeight: "21.6px",
-              letterSpacing: "0.75px",
-              verticalAlign: "middle",
-              textTransform: "capitalize",
-              marginLeft: 40.25,
-              color: "#49A760",
-            }}
-          >
-            agrotica solutions
-          </div>
-          <br />
-          <div
-            style={{
-              fontWeight: 500,
-              fontSize: 40,
-              color: "#04000B",
-              marginLeft: 40,
-              verticalAlign: "middle",
-              marginBottom: 10,
-            }}
-          >
-            Agriculture through innovative solutions.
-          </div>
-          <div
-            style={{
-              color: "#666666",
-              fontSize: 16,
-              fontWeight: 500,
-              marginLeft: 40,
-              paddingRight: 100,
-            }}
-          >
-            Our expertise also extends to offering advanced irrigation services
-            and effective crop protection solutions,
-          </div>
-          <br />
-          <a
-            href=""
-            style={{
-              color: "#4BAF47",
-              fontFamily: "Outfit",
-              fontWeight: 600,
-              marginLeft: 40,
-            }}
-          >
-            VIEW ALL DETAILS
-          </a>
-          <br />
-          <img src={image9} alt="" style={{ marginLeft: 220 }}></img>
-        </div>
-        <div title="right-section" style={{ display: "flex" }}>
-          <div style={{}}>
-            <img src={image6} alt="" style={{ marginRight: 50 }}></img>
-            <img src={image7} alt=""></img>
-          </div>
-        </div>
-      </div>
+  <div title="left-section" className="section-3-left">
+    <img src={image8} alt="" className="section-3-main-image" />
+    
+    <div className="section-3-subtitle">
+      agrotica solutions
+    </div>
+    
+    <br />
+    
+    <div className="section-3-title">
+      Agriculture through innovative solutions.
+    </div>
+    
+    <div className="section-3-description">
+      Our expertise also extends to offering advanced irrigation services
+      and effective crop protection solutions,
+    </div>
+    
+    <br />
+    
+    <a href="" className="section-3-link">
+      VIEW ALL DETAILS
+    </a>
+    
+    <br />
+    
+    <img src={image9} alt="" className="section-3-bottom-image" />
+  </div>
+
+  <div title="right-section" className="section-3-right">
+    <div>
+      <img src={image6} alt="" className="section-3-side-image-left" />
+      <img src={image7} alt="" className="section-3-side-image-right" />
+    </div>
+  </div>
+</div>
+
       <div className="section-4">
         <div style={{ maxWidth: "40%" }}>
           <span style={{ fontWeight: 600, fontSize: 40 }}>Our Projects</span>{" "}

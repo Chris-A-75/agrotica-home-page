@@ -146,6 +146,63 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.section-3-left {
+  margin-left: 0;
+  background-color: white;
+  width: 454px;
+  height: 441px;
+  box-shadow: 0px 11.25px 45px -7.5px rgba(109, 117, 143, 0.33);
+  padding-bottom: 5px;
+}
+.section-3-main-image {
+  margin-top: 31px;
+}
+.section-3-subtitle {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21.6px;
+  letter-spacing: 0.75px;
+  vertical-align: middle;
+  text-transform: capitalize;
+  margin-left: 40.25px;
+  color: #49A760;
+}
+.section-3-title {
+  font-weight: 500;
+  font-size: 40px;
+  color: #04000B;
+  margin-left: 40px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+.section-3-description {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 40px;
+  padding-right: 100px;
+}
+.section-3-link {
+  color: #4BAF47;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  margin-left: 40px;
+  text-decoration: none; /* Optional */
+}
+.section-3-bottom-image {
+  margin-left: 220px;
+}
+.section-3-right {
+  display: flex;
+}
+.section-3-side-image-left {
+  margin-right: 50px;
+}
+
+
+
 .section-4 {
   padding: 54px 10px;
   display: flex;
