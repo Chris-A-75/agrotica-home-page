@@ -32,235 +32,234 @@ function App() {
     <div>
       {/* root */}
       <div className="top-bar-1">
-  <img src={logo} alt="logo" height="100%" />
-  <div className="top-bar-1-text" title="top-bar-1-text">
-    <div className="contact-block">
-      Call anytime <br />
-      <span className="bold-text">+961 3 21 22 30</span>
-    </div>
-    <div className="contact-block">
-      Send email <br />
-      <span className="bold-text">Info@Agrotica.info</span>
-    </div>
-    <div className="location-block">
-      Al Chouf - Mahafer - Main Street <br />
-      <span className="bold-text">Al Chouf</span>
-    </div>
-    {/* add fb and insta pics later */}
-  </div>
-</div>
+        <img src={logo} alt="logo" height="100%" />
+        <div className="top-bar-1-text" title="top-bar-1-text">
+          <div className="contact-block">
+            Call anytime <br />
+            <span className="bold-text">+961 3 21 22 30</span>
+          </div>
+          <div className="contact-block">
+            Send email <br />
+            <span className="bold-text">Info@Agrotica.info</span>
+          </div>
+          <div className="location-block">
+            Al Chouf - Mahafer - Main Street <br />
+            <span className="bold-text">Al Chouf</span>
+          </div>
+          {/* add fb and insta pics later */}
+        </div>
+      </div>
 
       <div className="top-bar-2">
-  <a className="bar-link-text" href="/home">Home</a>
-  <a className="bar-link-text" href="/about">About us</a>
-  <a className="bar-link-text" href="/products">Products</a>
-  <a className="bar-link-text" href="/projects">Projects</a>
-  <a className="bar-link-text" href="/contact">Contact us</a>
-</div>
+        <a className="bar-link-text" href="/home">
+          Home
+        </a>
+        <a className="bar-link-text" href="/about">
+          About us
+        </a>
+        <a className="bar-link-text" href="/products">
+          Products
+        </a>
+        <a className="bar-link-text" href="/projects">
+          Projects
+        </a>
+        <a className="bar-link-text" href="/contact">
+          Contact us
+        </a>
+      </div>
 
-      <div
-  className="section-1"
->
-  <img
-    src={image1}
-    alt=""
-    className="section-1-img"
-  />
-  <div
-    className="centered-image-text"
-  >
-    <div className="centered-text">
-      Empower Farmers, Agricultural Communities And Environmental<br />
-      <span className="centered-subtext">
-        Empower Farmers, Agricultural Communities And Environmental
-      </span>
-    </div>
-    <br />
-    <button className="green-button-style">DISCOVER MORE 🠊</button>
-  </div>
-</div>
+      <div className="section-1">
+        <img src={image1} alt="" className="section-1-img" />
+        <div className="centered-image-text">
+          <div className="centered-text">
+            Empower Farmers, Agricultural Communities And Environmental
+            <br />
+            <span className="centered-subtext">
+              Empower Farmers, Agricultural Communities And Environmental
+            </span>
+          </div>
+          <br />
+          <button className="green-button-style">DISCOVER MORE 🠊</button>
+        </div>
+      </div>
 
       <div className="section-2">
-  <div>
-    <img src={image2} alt="" className="section-2-left-image" />
-  </div>
+        <div>
+          <img src={image2} alt="" className="section-2-left-image" />
+        </div>
 
-  <div className="section-2-text">
-    Agrotica is Dedicated to Advancing Sustainable Agriculture<br />
-    <span className="section-2-subtext">
-      Founded in 2009 by a team of agricultural experts with over two
-      decades of experience,
-    </span>
-    <br />
-    <img src={image4} alt="" className="section-2-logo" />
-    <div className="section-2-experience">
-      <span className="experience-highlight">15 +</span> years experience
-    </div>
-    <button className="green-button-style">DISCOVER MORE 🠊</button>
-  </div>
+        <div className="section-2-text">
+          Agrotica is Dedicated to Advancing Sustainable Agriculture
+          <br />
+          <span className="section-2-subtext">
+            Founded in 2009 by a team of agricultural experts with over two
+            decades of experience,
+          </span>
+          <br />
+          <img src={image4} alt="" className="section-2-logo" />
+          <div className="section-2-experience">
+            <span className="experience-highlight">15 +</span> years experience
+          </div>
+          <button className="green-button-style">DISCOVER MORE 🠊</button>
+        </div>
 
-  <div>
-    <img src={image3} alt="" className="section-2-right-image" />
-  </div>
-</div>
+        <div>
+          <img src={image3} alt="" className="section-2-right-image" />
+        </div>
+      </div>
 
-      <img
-        src={image5}
-        alt=""
-        className="section-2-3-seperator"
-      ></img>
+      <img src={image5} alt="" className="section-2-3-seperator"></img>
       <div className="section-3">
-  <div title="left-section" className="section-3-left">
-    <img src={image8} alt="" className="section-3-main-image" />
-    
-    <div className="section-3-subtitle">
-      agrotica solutions
-    </div>
-    
-    <br />
-    
-    <div className="section-3-title">
-      Agriculture through innovative solutions.
-    </div>
-    
-    <div className="section-3-description">
-      Our expertise also extends to offering advanced irrigation services
-      and effective crop protection solutions,
-    </div>
-    
-    <br />
-    
-    <a href="" className="section-3-link">
-      VIEW ALL DETAILS
-    </a>
-    
-    <br />
-    
-    <img src={image9} alt="" className="section-3-bottom-image" />
-  </div>
+        <div title="left-section" className="section-3-left">
+          <img src={image8} alt="" className="section-3-main-image" />
 
-  <div title="right-section" className="section-3-right">
-    <div>
-      <img src={image6} alt="" className="section-3-side-image-left" />
-      <img src={image7} alt="" className="section-3-side-image-right" />
-    </div>
-  </div>
-</div>
+          <div className="section-3-subtitle">agrotica solutions</div>
+
+          <br />
+
+          <div className="section-3-title">
+            Agriculture through innovative solutions.
+          </div>
+
+          <div className="section-3-description">
+            Our expertise also extends to offering advanced irrigation services
+            and effective crop protection solutions,
+          </div>
+
+          <br />
+
+          <a href="" className="section-3-link">
+            VIEW ALL DETAILS
+          </a>
+
+          <br />
+
+          <img src={image9} alt="" className="section-3-bottom-image" />
+        </div>
+
+        <div title="right-section" className="section-3-right">
+          <div>
+            <img src={image6} alt="" className="section-3-side-image-left" />
+            <img src={image7} alt="" className="section-3-side-image-right" />
+          </div>
+        </div>
+      </div>
 
       <div className="section-4">
-  <div className="section-4-text-block">
-    <span className="section-4-heading">Our Projects</span>
-    <br />
-    <br />
-    <span className="section-4-subtext">
-      Sollicitudin ac orci phasellus egest tellusun rutrum tellus. Amet
-      commod nulla facilisi nulla. Sed etetur adipscin
-    </span>
-  </div>
+        <div className="section-4-text-block">
+          <span className="section-4-heading">Our Projects</span>
+          <br />
+          <br />
+          <span className="section-4-subtext">
+            Sollicitudin ac orci phasellus egest tellusun rutrum tellus. Amet
+            commod nulla facilisi nulla. Sed etetur adipscin
+          </span>
+        </div>
 
-  <button className="green-button-style section-4-button">
-    view all projects 🠊
-  </button>
-</div>
+        <button className="green-button-style section-4-button">
+          view all projects 🠊
+        </button>
+      </div>
 
       <div className="section-4-5">
-  <Swiper
-    className="swiper"
-    modules={[Pagination]}
-    slidesPerView={1}
-    spaceBetween={10}
-    pagination={{
-      el: ".js-swiper-responsive-breakpoint-pagination",
-      clickable: true,
-    }}
-    breakpoints={{
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 50,
-      },
-    }}
-  >
-    <SwiperSlide>
-      <div className="swiper-slide-wrapper">
-        <img src={image10} alt="" className="slide-image" />
-      </div>
-    </SwiperSlide>
-    <SwiperSlide>
-      <div className="swiper-slide-wrapper">
-        <img src={image11} alt="" className="slide-image" />
-      </div>
-    </SwiperSlide>
-    <SwiperSlide>
-      <div className="swiper-slide-wrapper">
-        <img src={image12} alt="" className="slide-image" />
-      </div>
-    </SwiperSlide>
-    <SwiperSlide>
-      <div className="swiper-slide-wrapper">
-        <img src={image13} alt="" className="slide-image" />
-      </div>
-    </SwiperSlide>
-  </Swiper>
-
-  <div className="js-swiper-responsive-breakpoint-pagination swiper-pagination-custom" />
-
-  <img src={image14} alt="" className="section-4-5-footer-image" />
-</div>
-
-      <div className="section-5">
-  <img src={image15} alt="" className="section-5-banner" />
-
-  <div className="section-5-heading">
-    <div>
-      We Believe In Bringing Customers The{" "}
-      <span className="section-5-highlight">
-        <br />
-        Best Products
-      </span>
-      <img src={image16} alt="" className="section-5-icon" />
-    </div>
-  </div>
-</div>
-
-      <div className="section-5-5">
-  <div className="section-5-5-wrapper">
-    <div className="section-5-5-background-container">
-      <img src={image17} alt="" className="section-5-5-background-image" />
-    </div>
-
-    <div className="section-5-5-overlay">
-      <img src={image18} alt="" className="section-5-5-foreground-image" />
-      <div className="section-5-5-text-block">
-        Get In Touch With Our Team
-        <br />
-        <span className="section-5-5-subtext">
-          For Expert Agricultural Support and Solutions
-        </span>
-        <br />
-        <button className="green-button-style">contact us 🠊</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-      <div className="section-6">
-        <div
-          className="top-section"
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
+        <Swiper
+          className="swiper"
+          modules={[Pagination]}
+          slidesPerView={1}
+          spaceBetween={10}
+          pagination={{
+            el: ".js-swiper-responsive-breakpoint-pagination",
+            clickable: true,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
           }}
         >
-          <img src={image19} alt=""></img>
+          <SwiperSlide>
+            <div className="swiper-slide-wrapper">
+              <img src={image10} alt="" className="slide-image" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="swiper-slide-wrapper">
+              <img src={image11} alt="" className="slide-image" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="swiper-slide-wrapper">
+              <img src={image12} alt="" className="slide-image" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="swiper-slide-wrapper">
+              <img src={image13} alt="" className="slide-image" />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+
+        <div className="js-swiper-responsive-breakpoint-pagination swiper-pagination-custom" />
+
+        <img src={image14} alt="" className="section-4-5-footer-image" />
+      </div>
+
+      <div className="section-5">
+        <img src={image15} alt="" className="section-5-banner" />
+
+        <div className="section-5-heading">
+          <div>
+            We Believe In Bringing Customers The{" "}
+            <span className="section-5-highlight">
+              <br />
+              Best Products
+            </span>
+            <img src={image16} alt="" className="section-5-icon" />
+          </div>
+        </div>
+      </div>
+
+      <div className="section-5-5">
+        <div className="section-5-5-wrapper">
+          <div className="section-5-5-background-container">
+            <img
+              src={image17}
+              alt=""
+              className="section-5-5-background-image"
+            />
+          </div>
+
+          <div className="section-5-5-overlay">
+            <img
+              src={image18}
+              alt=""
+              className="section-5-5-foreground-image"
+            />
+            <div className="section-5-5-text-block">
+              Get In Touch With Our Team
+              <br />
+              <span className="section-5-5-subtext">
+                For Expert Agricultural Support and Solutions
+              </span>
+              <br />
+              <button className="green-button-style">contact us 🠊</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer className="section-6">
+        <div className="section-6-top-section">
+          <img src={image19} alt="" />
           <div className="bar-links-section-6">
             <a className="bar-link-text-2" href="/home">
               home
@@ -279,45 +278,20 @@ function App() {
             </a>
           </div>
         </div>
-        <div
-          title="seperator"
-          style={{
-            width: "100%",
-            height: 1,
-            backgroundColor: "#2C7C64",
-            marginTop: 52,
-            marginBottom: 35,
-          }}
-        ></div>
-        <div
-          title="bottom-part"
-          style={{ display: "flex", justifyContent: "space-between" }}
-        >
-          <div style={{ fontSize: 18, color: "white" }}>
+
+        <div className="section-6-separator" title="seperator"></div>
+
+        <div className="section-6-bottom" title="bottom-part">
+          <div className="section-6-copyright">
             Copyright 2024 AGROTICA | All Rights Reserved
           </div>
-          <div
-            style={{
-              fontSize: 20,
-              fontWeight: 600,
-              color: "white",
-              marginLeft: 20,
-            }}
-          >
-            Follow Us:{" "}
-            <img
-              src={icon1}
-              alt=""
-              style={{ marginLeft: 10, marginRight: 10, cursor: "pointer" }}
-            />
-            <img
-              src={icon2}
-              alt=""
-              style={{ marginLeft: 10, marginRight: 10, cursor: "pointer" }}
-            />
+          <div className="section-6-follow">
+            Follow Us:
+            <img src={icon1} alt="" className="section-6-icon" />
+            <img src={icon2} alt="" className="section-6-icon" />
           </div>
         </div>
-      </div>
+      </footer>
     </div>
   );
 }
