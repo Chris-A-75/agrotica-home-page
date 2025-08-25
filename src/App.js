@@ -32,54 +32,24 @@ function App() {
     <div>
       {/* root */}
       <div className="top-bar-1">
-        <img src={logo} alt="logo" height="100%"></img>
-        <div
-          title="top-bar-1-text"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
-          }}
-        >
-          <div
-            style={{
-              fontSize: 12,
-              color: "grey",
-              borderRight: "1px solid #E4E2D7",
-              padding: 20,
-              paddingRight: 80,
-            }}
-          >
-            Call anytime <br />
-            <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
-              +961 3 21 22 30
-            </span>
-          </div>
-          <div
-            style={{
-              fontSize: 12,
-              color: "grey",
-              borderRight: "1px solid #E4E2D7",
-              padding: 20,
-              paddingRight: 80,
-            }}
-          >
-            Send email <br />
-            <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
-              Info@Agrotica.info
-            </span>
-          </div>
+  <img src={logo} alt="logo" height="100%" />
+  <div className="top-bar-1-text" title="top-bar-1-text">
+    <div className="contact-block">
+      Call anytime <br />
+      <span className="bold-text">+961 3 21 22 30</span>
+    </div>
+    <div className="contact-block">
+      Send email <br />
+      <span className="bold-text">Info@Agrotica.info</span>
+    </div>
+    <div className="location-block">
+      Al Chouf - Mahafer - Main Street <br />
+      <span className="bold-text">Al Chouf</span>
+    </div>
+    {/* add fb and insta pics later */}
+  </div>
+</div>
 
-          <div style={{ fontSize: 12, color: "grey", padding: 20 }}>
-            Al Chouf - Mahafer - Main Street <br />
-            <span style={{ fontWeight: "bold", color: "black", fontSize: 14 }}>
-              Al Chouf
-            </span>
-          </div>
-          {/* add fb and insta pics later */}
-        </div>
-      </div>
       <div className="top-bar-2">
         <a className="bar-link-text" href="/home">
           Home
