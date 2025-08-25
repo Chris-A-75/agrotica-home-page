@@ -97,11 +97,47 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+
 .section-2 {
   display: flex;
   padding: 100px 46px;
   justify-content: space-between;
 }
+.section-2-text {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.section-2-subtext {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1;
+}
+.section-2-logo {
+  width: 150px;
+  height: 70px;
+}
+.section-2-experience {
+  text-transform: capitalize;
+  font-size: 22.5px;
+  color: #4BAF47;
+  font-weight: 400;
+}
+.experience-highlight {
+  font-weight: 600;
+  font-size: 37.5px;
+}
+
+.section-2-3-seperator{
+  display: block;
+  width: 100%;
+}
+
+
 .section-3 {
   background-color: #EAF1E0;
   padding-bottom: 120px;

@@ -81,47 +81,33 @@ function App() {
 </div>
 
       <div className="section-2">
-        <div>
-          <img src={image2} alt="" className="section-2-left-image"></img>
-        </div>
-        <div
-          style={{
-            fontWeight: "bold",
-            textAlign: "center",
-            fontSize: 40,
-            textTransform: "capitalize",
-            paddingLeft: 40,
-            paddingRight: 40,
-          }}
-        >
-          Agrotica is Dedicated to Advancing Sustainable Agriculture<br />
-          <span style={{ fontSize: 25, fontWeight: "normal", lineHeight: 1 }}>
-            Founded in 2009 by a team of agricultural experts with over two
-            decades of experience,
-          </span>
-          <br />
-          <img src={image4} alt="" style={{ width: 150, height: 70 }}></img>
-          <div
-            style={{
-              textTransform: "capitalize",
-              fontSize: 22.5,
-              color: "#4BAF47",
-              fontWeight: 400,
-            }}
-          >
-            <span style={{ fontWeight: 600, fontSize: 37.5 }}>15 +</span> years
-            experience
-          </div>
-          <button className="green-button-style">DISCOVER MORE 🠊</button>
-        </div>
-        <div>
-          <img src={image3} alt="" className="section-2-right-image"></img>
-        </div>
-      </div>
+  <div>
+    <img src={image2} alt="" className="section-2-left-image" />
+  </div>
+
+  <div className="section-2-text">
+    Agrotica is Dedicated to Advancing Sustainable Agriculture<br />
+    <span className="section-2-subtext">
+      Founded in 2009 by a team of agricultural experts with over two
+      decades of experience,
+    </span>
+    <br />
+    <img src={image4} alt="" className="section-2-logo" />
+    <div className="section-2-experience">
+      <span className="experience-highlight">15 +</span> years experience
+    </div>
+    <button className="green-button-style">DISCOVER MORE 🠊</button>
+  </div>
+
+  <div>
+    <img src={image3} alt="" className="section-2-right-image" />
+  </div>
+</div>
+
       <img
         src={image5}
         alt=""
-        style={{ display: "block", width: "100%" }}
+        className="section-2-3-seperator"
       ></img>
       <div className="section-3">
         <div
