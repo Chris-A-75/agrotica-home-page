@@ -10,8 +10,10 @@ import image2 from "./assets/Mask group.png";
 import image3 from "./assets/Mask group2.png";
 import image4 from "./assets/Screenshot 2025-08-18 135204.png";
 import image5 from "./assets/Screenshot 2025-08-19 102450.png";
-import image6 from "./assets/Group 98.png";
-import image7 from "./assets/Group 99.png";
+import image6 from "./assets/Group 98-1.png";
+import image6_1 from "./assets/Group 98-2.png";
+import image7 from "./assets/Group 99-1.png";
+import image7_1 from "./assets/Group 99-2.png";
 import image8 from "./assets/Fill-33.png";
 import image9 from "./assets/Group 100.png";
 import image10 from "./assets/e851ed9848beb20b9911c928328661a8aca7b3e7.jpg";
@@ -109,6 +111,7 @@ function App() {
       </div>
 
       <img src={image5} alt="" className="section-2-3-seperator"></img>
+      
       <div className="section-3">
         <div title="left-section" className="section-3-left">
           <img src={image8} alt="" className="section-3-main-image" />
@@ -138,10 +141,10 @@ function App() {
         </div>
 
         <div title="right-section" className="section-3-right">
-          <div>
             <img src={image6} alt="" className="section-3-side-image-left" />
             <img src={image7} alt="" className="section-3-side-image-right" />
-          </div>
+            <img src={image6_1} alt="" className="section-3-side-image-left" />
+            <img src={image7_1} alt="" className="section-3-side-image-right" />
         </div>
       </div>
 
