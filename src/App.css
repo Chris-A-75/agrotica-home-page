@@ -202,7 +202,6 @@ body {
 }
 
 
-
 .section-4 {
   padding: 54px 10px;
   display: flex;
@@ -210,6 +209,23 @@ body {
   flex-wrap: wrap;
   height: 270px;
 }
+.section-4-text-block {
+  max-width: 40%;
+}
+.section-4-heading {
+  font-weight: 600;
+  font-size: 40px;
+}
+.section-4-subtext {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.section-4-button {
+  margin-top: 132px;
+  width: 242px;
+}
+
+
 .section-4-5 {
   background-color: #21604D;
   /*height: 387px;*/
@@ -219,10 +235,91 @@ body {
   transform: translateY(-100px);
   width: 100%;
 }
+.swiper-slide-wrapper {
+  position: relative;
+}
+.slide-image {
+  width: 506px;
+  height: 358px;
+}
+.swiper-pagination-custom {
+  display: flex;
+  justify-content: center;
+}
+.section-4-5-footer-image {
+  margin-top: 40px;
+  width: 100%;
+}
+
+
+.section-5-banner {
+  width: 100%;
+}
+.section-5-heading {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 70px;
+  padding-left: 31%;
+  padding-right: 17%;
+  margin-bottom: 95px;
+}
+.section-5-highlight {
+  color: #4BAF47;
+}
+.section-5-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
 .section-5-5 {
   width: 100%;
   position: relative;
 }
+.section-5-5-wrapper {
+  position: relative;
+  width: 100%;
+}
+.section-5-5-background-container {
+  width: 100%;
+  max-width: 1550px;
+  height: 548px;
+  overflow: hidden;
+}
+.section-5-5-background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.section-5-5-overlay {
+  position: absolute;
+  top: 0%;
+  left: 7%;
+  width: 35%;
+  height: auto;
+}
+.section-5-5-foreground-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.section-5-5-text-block {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: black;
+  font-size: 7vh;
+  font-weight: 500;
+  padding-right: 19px;
+}
+.section-5-5-subtext {
+  font-size: 4.9vh;
+  font-weight: 400;
+}
+
+
 .section-6 {
   background-color: #21604D;
   display: flex;

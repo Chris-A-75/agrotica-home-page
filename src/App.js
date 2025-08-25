@@ -148,180 +148,109 @@ function App() {
 </div>
 
       <div className="section-4">
-        <div style={{ maxWidth: "40%" }}>
-          <span style={{ fontWeight: 600, fontSize: 40 }}>Our Projects</span>{" "}
-          <br />
-          <br />
-          <span style={{ fontSize: 20, textTransform: "capitalize" }}>
-            Sollicitudin ac orci phasellus egest tellusun rutrum tellus. Amet
-            commod nulla facilisi nulla. Sed etetur adipscin
-          </span>
-        </div>
-        <button
-          className="green-button-style"
-          style={{ marginTop: 132, width: 242 }}
-        >
-          view all projects 🠊
-        </button>
-      </div>
+  <div className="section-4-text-block">
+    <span className="section-4-heading">Our Projects</span>
+    <br />
+    <br />
+    <span className="section-4-subtext">
+      Sollicitudin ac orci phasellus egest tellusun rutrum tellus. Amet
+      commod nulla facilisi nulla. Sed etetur adipscin
+    </span>
+  </div>
+
+  <button className="green-button-style section-4-button">
+    view all projects 🠊
+  </button>
+</div>
+
       <div className="section-4-5">
-        <Swiper
-          className="swiper"
-          modules={[Pagination]}
-          slidesPerView={1}
-          spaceBetween={10}
-          pagination={{
-            el: ".js-swiper-responsive-breakpoint-pagination",
-            clickable: true,
-          }}
-          breakpoints={{
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 40,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 50,
-            },
-          }}
-        >
-          <SwiperSlide>
-            <div style={{ position: "relative" }}>
-              <img
-                src={image10}
-                alt=""
-                style={{ wdith: 506, height: 358 }}
-              ></img>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div style={{ position: "relative" }}>
-              <img
-                src={image11}
-                alt=""
-                style={{ width: 506, height: 358 }}
-              ></img>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div style={{ position: "relative" }}>
-              <img
-                src={image12}
-                alt=""
-                style={{ width: 506, height: 358 }}
-              ></img>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div style={{ position: "relative" }}>
-              <img
-                src={image13}
-                alt=""
-                style={{ width: 506, height: 358 }}
-              ></img>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-        <div
-          className="js-swiper-responsive-breakpoint-pagination"
-          style={{ display: "flex", justifyContent: "center" }}
-        />
-        <img
-          src={image14}
-          alt=""
-          style={{ marginTop: 40, width: "100%" }}
-        ></img>
+  <Swiper
+    className="swiper"
+    modules={[Pagination]}
+    slidesPerView={1}
+    spaceBetween={10}
+    pagination={{
+      el: ".js-swiper-responsive-breakpoint-pagination",
+      clickable: true,
+    }}
+    breakpoints={{
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    }}
+  >
+    <SwiperSlide>
+      <div className="swiper-slide-wrapper">
+        <img src={image10} alt="" className="slide-image" />
       </div>
+    </SwiperSlide>
+    <SwiperSlide>
+      <div className="swiper-slide-wrapper">
+        <img src={image11} alt="" className="slide-image" />
+      </div>
+    </SwiperSlide>
+    <SwiperSlide>
+      <div className="swiper-slide-wrapper">
+        <img src={image12} alt="" className="slide-image" />
+      </div>
+    </SwiperSlide>
+    <SwiperSlide>
+      <div className="swiper-slide-wrapper">
+        <img src={image13} alt="" className="slide-image" />
+      </div>
+    </SwiperSlide>
+  </Swiper>
+
+  <div className="js-swiper-responsive-breakpoint-pagination swiper-pagination-custom" />
+
+  <img src={image14} alt="" className="section-4-5-footer-image" />
+</div>
+
       <div className="section-5">
-        <img src={image15} alt="" style={{ width: "100%" }}></img>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            fontWeight: 600,
-            fontSize: 70,
-            paddingLeft: "31%",
-            paddingRight: "17%",
-            marginBottom: 95,
-          }}
-        >
-          <div>
-            We Believe In Bringing Customers The{" "}
-            <span style={{ color: "#4BAF47" }}>
-              <br />Best Products
-            </span>
-            <img
-              src={image16}
-              alt=""
-              style={{ marginLeft: 20, cursor: "pointer" }}
-            ></img>
-          </div>
-        </div>
-      </div>
+  <img src={image15} alt="" className="section-5-banner" />
+
+  <div className="section-5-heading">
+    <div>
+      We Believe In Bringing Customers The{" "}
+      <span className="section-5-highlight">
+        <br />
+        Best Products
+      </span>
+      <img src={image16} alt="" className="section-5-icon" />
+    </div>
+  </div>
+</div>
+
       <div className="section-5-5">
-        <div style={{ position: "relative", width: "100%" }}>
-          <div
-            style={{
-              width: "100%",
-              maxWidth: "1550px",
-              height: "548px",
-              overflow: "hidden",
-            }}
-          >
-            <img
-              src={image17}
-              alt=""
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                display: "block",
-              }}
-            />
-          </div>
-          <div
-            style={{
-              position: "absolute",
-              top: "0%",
-              left: "7%",
-              width: "35%",
-              height: "auto",
-            }}
-          >
-            <img
-              src={image18}
-              alt=""
-              style={{
-                width: "100%",
-                height: "auto",
-                display: "block",
-              }}
-            />
-            <div
-              style={{
-                position: "absolute",
-                top: "20%",
-                left: "10%",
-                color: "black",
-                fontSize: "7vh",
-                fontWeight: 500,
-                paddingRight:19
-              }}
-            >
-              Get In Touch With Our Team
-              <br />
-              <span style={{ fontSize: "4.9vh", fontWeight: 400}}>
-                For Expert Agricultural Support and Solutions
-              </span>
-              <br /><button className="green-button-style">contact us 🠊</button>
-            </div>
-          </div>
-        </div>
+  <div className="section-5-5-wrapper">
+    <div className="section-5-5-background-container">
+      <img src={image17} alt="" className="section-5-5-background-image" />
+    </div>
+
+    <div className="section-5-5-overlay">
+      <img src={image18} alt="" className="section-5-5-foreground-image" />
+      <div className="section-5-5-text-block">
+        Get In Touch With Our Team
+        <br />
+        <span className="section-5-5-subtext">
+          For Expert Agricultural Support and Solutions
+        </span>
+        <br />
+        <button className="green-button-style">contact us 🠊</button>
       </div>
+    </div>
+  </div>
+</div>
+
       <div className="section-6">
         <div
           className="top-section"
