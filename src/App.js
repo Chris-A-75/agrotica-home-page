@@ -232,32 +232,19 @@ function App() {
       </div>
 
       <div className="section-5-5">
-        <div className="section-5-5-wrapper">
           <div className="section-5-5-background-container">
-            <img
-              src={image17}
-              alt=""
-              className="section-5-5-background-image"
-            />
-          </div>
-
-          <div className="section-5-5-overlay">
-            <img
-              src={image18}
-              alt=""
-              className="section-5-5-foreground-image"
-            />
-            <div className="section-5-5-text-block">
+            <div className="section-5-5-corner-shape">
+              <div className="section-5-5-text-block">
               Get In Touch With Our Team
               <br />
               <span className="section-5-5-subtext">
                 For Expert Agricultural Support and Solutions
               </span>
               <br />
-              <button className="green-button-style">contact us 🠊</button>
+              <button className="green-button-style Bsection-5-5">contact us 🠊</button>
+            </div>
             </div>
           </div>
-        </div>
       </div>
 
       <footer className="section-6">
