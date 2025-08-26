@@ -141,10 +141,10 @@ function App() {
         </div>
 
         <div title="right-section" className="section-3-right">
-            <img src={image6} alt="" className="section-3-side-image-left" />
-            <img src={image7} alt="" className="section-3-side-image-right" />
-            <img src={image6_1} alt="" className="section-3-side-image-left" />
-            <img src={image7_1} alt="" className="section-3-side-image-right" />
+            <img src={image6} alt="" className="section-3-side-image" />
+            <img src={image7} alt="" className="section-3-side-image" />
+            <img src={image6_1} alt="" className="section-3-side-image" />
+            <img src={image7_1} alt="" className="section-3-side-image" />
         </div>
       </div>
 

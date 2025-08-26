@@ -142,7 +142,7 @@
     background-color: #EAF1E0;
     padding-bottom: 120px;
     padding-left: 13%;
-    padding-right: 16.5%;
+    /*padding-right: 16.5%;*/
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -199,10 +199,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 0 10%;
+    padding: 0 7%;
   }
-  .section-3-side-image-left {
-    /*margin-right: 50px;*/
+  .section-3-side-image {
+    max-width: 100%;
+    height: auto;
   }
 
 
@@ -403,5 +404,8 @@
     .section-3-right {
       margin-top: 5%;
       padding: 0;
+    }
+    .section-3-side-image {
+      max-width: 50%;
     }
   }
