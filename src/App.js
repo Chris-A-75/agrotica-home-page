@@ -23,11 +23,10 @@ import image13 from "./assets/2d9def85b20c5fabd1f12e07da060dd60fad6444.jpg";
 import image14 from "./assets/Group 76.png";
 import image15 from "./assets/text.png";
 import image16 from "./assets/Group 14.png";
-import image17 from "./assets/Mask group1.png";
-import image18 from "./assets/Rectangle 12.png";
 import image19 from "./assets/AGROTICA-2024-3.png";
 import icon1 from "./assets/Icon.png";
 import icon2 from "./assets/Icon (1).png";
+import icon3 from "./assets/burger-bar.png";
 
 function App() {
   return (
@@ -87,7 +86,7 @@ function App() {
 
       <div className="section-2">
         <div>
-          <img src={image2} alt="" className="section-2-left-image" />
+          <img src={image2} alt="" className="section-2-image" />
         </div>
 
         <div className="section-2-text">
@@ -106,7 +105,7 @@ function App() {
         </div>
 
         <div>
-          <img src={image3} alt="" className="section-2-right-image" />
+          <img src={image3} alt="" className="section-2-image" />
         </div>
       </div>
 

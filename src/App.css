@@ -104,6 +104,10 @@
     padding: 100px 46px;
     justify-content: space-between;
   }
+  .section-2-image {
+    max-width: 100%;
+    height: auto;
+  }
   .section-2-text {
     font-weight: bold;
     text-align: center;
@@ -303,7 +307,7 @@
     font-weight: 400;
   }
   .Bsection-5-5 {
-    margin: 10% 0;
+    margin: 9% 0;
   }
 
 
@@ -364,10 +368,7 @@
     .top-bar-1-text {
       justify-content: center;
     }
-    .section-2-right-image {
-      display: none;
-    }
-    .section-2-left-image {
+    .section-2-image {
       display: none;
     }
     .swiper {
@@ -389,6 +390,11 @@
     }
     .section-3-side-image {
       max-width: 50%;
+    }
+    .section-5-heading {
+      font-size: 50px;
+      padding: 0%;
+      text-align: center;
     }
     .section-5-5-corner-shape {
       width: fit-content;
