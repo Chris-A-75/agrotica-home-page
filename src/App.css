@@ -49,6 +49,12 @@
     font-size: 18px;
     margin: 0 2%;
   }
+  .hamburger-menu-top-bar-2 {
+    display: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
 
 
   .section-1 {
@@ -367,6 +373,16 @@
   @media (max-width: 800px) {
     .top-bar-1-text {
       justify-content: center;
+    }
+    .top-bar-2 {
+      justify-content: right;
+      padding: 5% 6%;
+    }
+    .bar-link-text {
+      display: none;
+    }
+    .hamburger-menu-top-bar-2 {
+      display: block;
     }
     .section-2-image {
       display: none;

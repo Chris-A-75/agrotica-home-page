@@ -29,6 +29,8 @@ import icon2 from "./assets/Icon (1).png";
 import icon3 from "./assets/burger-bar.png";
 
 function App() {
+  const [panelOpen, setPanelOpen] = React.useState(false);
+
   return (
     <div>
       {/* root */}
@@ -67,6 +69,14 @@ function App() {
         <a className="bar-link-text" href="/contact">
           Contact us
         </a>
+        <div>
+          <img
+            src={icon3}
+            alt=""
+            className="hamburger-menu-top-bar-2"
+            onClick={() => setPanelOpen(!panelOpen)}
+          />
+        </div>
       </div>
 
       <div className="section-1">
@@ -110,7 +120,7 @@ function App() {
       </div>
 
       <img src={image5} alt="" className="section-2-3-seperator"></img>
-      
+
       <div className="section-3">
         <div title="left-section" className="section-3-left">
           <img src={image8} alt="" className="section-3-main-image" />
@@ -140,10 +150,10 @@ function App() {
         </div>
 
         <div title="right-section" className="section-3-right">
-            <img src={image6} alt="" className="section-3-side-image" />
-            <img src={image7} alt="" className="section-3-side-image" />
-            <img src={image6_1} alt="" className="section-3-side-image" />
-            <img src={image7_1} alt="" className="section-3-side-image" />
+          <img src={image6} alt="" className="section-3-side-image" />
+          <img src={image7} alt="" className="section-3-side-image" />
+          <img src={image6_1} alt="" className="section-3-side-image" />
+          <img src={image7_1} alt="" className="section-3-side-image" />
         </div>
       </div>
 
@@ -231,19 +241,21 @@ function App() {
       </div>
 
       <div className="section-5-5">
-          <div className="section-5-5-background-container">
-            <div className="section-5-5-corner-shape">
-              <div className="section-5-5-text-block">
+        <div className="section-5-5-background-container">
+          <div className="section-5-5-corner-shape">
+            <div className="section-5-5-text-block">
               Get In Touch With Our Team
               <br />
               <span className="section-5-5-subtext">
                 For Expert Agricultural Support and Solutions
               </span>
               <br />
-              <button className="green-button-style Bsection-5-5">contact us 🠊</button>
-            </div>
+              <button className="green-button-style Bsection-5-5">
+                contact us 🠊
+              </button>
             </div>
           </div>
+        </div>
       </div>
 
       <footer className="section-6">
