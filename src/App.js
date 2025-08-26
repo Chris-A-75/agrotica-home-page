@@ -1,6 +1,7 @@
 import "./App.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import React from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -77,6 +78,24 @@ function App() {
             onClick={() => setPanelOpen(!panelOpen)}
           />
         </div>
+      </div>
+      <div className={`side-panel ${panelOpen ? 'open' : ''}`}>
+        <button className="x-button-side-panel" onClick={() => setPanelOpen(false)}>✕</button>
+        <a className="side-panel-links" href="/home">
+          Home
+        </a>
+        <a className="side-panel-links" href="/about">
+          About us
+        </a>
+        <a className="side-panel-links" href="/products">
+          Products
+        </a>
+        <a className="side-panel-links" href="/projects">
+          Projects
+        </a>
+        <a className="side-panel-links" href="/contact">
+          Contact us
+        </a>
       </div>
 
       <div className="section-1">
