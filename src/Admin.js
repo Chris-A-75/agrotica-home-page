@@ -22,9 +22,10 @@ function Admin() {
     const data = await response.json();
 
     if (data.success) {
-      localStorage.setItem("adminLoggedIn", "true");
+      localStorage.setItem("token", data.token);
       navigate("/admin/dashboard");
     } else {
+      localStorage.setItem("token", data.token);
       alert("Login failed.");
     }
   };

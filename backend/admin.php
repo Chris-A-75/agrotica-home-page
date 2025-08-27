@@ -7,6 +7,17 @@ header("Access-Control-Allow-Credentials: true");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 
+function generateRandomString($length = 10) {
+    $characters = '123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[random_int(0, $charactersLength - 1)];
+    }
+    return $randomString;
+}
+
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode(["success" => false, "error" => "Invalid request method."]);
     exit;
@@ -29,10 +40,10 @@ $username = $data['username'] ?? '';
 $password = $data['password'] ?? '';
 
 if ($username === $validUsername && $password === $validPassword) {
-    $_SESSION['admin_logged_in'] = true;
-    echo json_encode(["success" => true]);
+    $randomString = generateRandomString(15);
+    echo json_encode(["success" => true, "token" => $randomString]);
 } else {
-    echo json_encode(["success" => false]);
+    echo json_encode(["success" => false, "token" => "000000000000000"]); 
 }
 
 ?>

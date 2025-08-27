@@ -5,6 +5,7 @@ function Dashboard() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    const loginToken = localStorage.getItem("token");
     const isLoggedIn = localStorage.getItem("adminLoggedIn") === "true";
     if (!isLoggedIn) {
       navigate("/admin"); // redirect to login page
